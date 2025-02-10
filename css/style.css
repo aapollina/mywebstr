@@ -111,7 +111,7 @@
 .card img {
     height: 150px;
 }
- 
+
 .story {
     background-color: #130E27;
 }
@@ -212,11 +212,15 @@
 }
 
 .pricing-btn:hover {
-  transition: 1s;
-  box-shadow: 1px 1px 25px 10px rgba(186, 22, 10, 0.721);
-  background-image: radial-gradient(#540f0f 20%, #C62314 80%);
+    transition: 1s;
+    box-shadow: 1px 1px 25px 10px rgba(186, 22, 10, 0.721);
+    background-image: radial-gradient(#540f0f 20%, #C62314 80%);
 }
 
 .all-footer {
     height: 190px;
+}
+
+.pricing_inner-h2 {
+    color: #C62314;
 }
