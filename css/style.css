@@ -1,0 +1,222 @@
+* {
+    box-sizing: border-box;
+}
+.header {
+    background-image: url(../img/Rectangle\ 1.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    min-height: 700px;
+}
+.container {
+    margin: 0 auto;
+    width: 1170px;
+}
+.nav__inner {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.logo img {
+    padding-top: 35px;
+
+}
+.menu ul {
+    display: flex;
+    list-style: none;
+}
+
+.menu ul li a {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 21.94px;
+    text-decoration: none;
+    color: #ffffff;
+    text-transform: uppercase;
+    padding: 7px 21px;
+    font-family: sans-serif;
+}
+.menu ul li a:hover {
+    border-radius: 5px;
+    background-color: #130E27;
+}
+
+.info__inner {
+    padding-left: 20px;
+}
+.text {
+    text-transform: uppercase;
+    font-family: sans-serif;
+    font-size: 48px;
+    font-weight: 150;
+    line-height: 95px;
+    letter-spacing: -0.02em;
+    text-align: left;
+    color: #130E27;
+}
+.text div {
+    color: #ffffff;
+}
+
+.text2 {
+    font-family: PT Serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: -0.02em;
+    text-align: left;
+    color: #ffffff;
+    max-width: 480px;
+}
+
+.services {
+    background-color: #fff;
+}
+.nepidoras {
+    text-transform: uppercase;
+    font-family: sans-serif;
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 60.95px;
+    letter-spacing: -0.02em;
+    text-align: left;
+    color: #130E27;
+}
+.red {
+    color:#C62314;
+}
+.elems {
+    display: flex;
+    color: #130E27;
+    justify-content: space-between;
+    padding-top: 35px;
+    padding-bottom: 50px;
+}
+.card {
+    text-align: center;
+    height: 255px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.card p {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: -0.03em;
+    padding-top: 20px;
+}
+
+.card img {
+    height: 150px;
+}
+ 
+.story {
+    background-color: #130E27;
+}
+.story__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 144px;
+}
+.story__inner-p {
+    color: #ffffff;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: -0.02em;
+    text-align: left;
+    width: 611px;
+}
+
+.story-btn {
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 26.82px;
+    text-transform: uppercase;
+    padding: 19px 69px;
+    border-radius: 5px;
+    color: #fff;
+    background-color: #C62314;
+}
+
+.story-btn:hover {
+    transition: 1s;
+    box-shadow: 1px 1px 25px 10px rgba(186, 22, 10, 0.721);
+    background-image: radial-gradient(#540f0f 20%, #C62314 80%);
+}
+
+.pricing {
+    padding-bottom: 70px;
+    background-color: #EFEFEF;
+    
+}
+.pricing_inner-h2 {
+    margin: 0;
+    padding: 50px 0;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    color: #130E27;
+    font-size: 50px;
+    line-height: 61px;
+    letter-spacing: -2%;
+}
+.pricing-elems {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.pricing-cards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 5px;
+
+}
+.pricing-tarif {
+    padding-top: 10px;
+    font-size: 22px;
+    line-height: 28px;
+    letter-spacing: -3%;
+}
+.pricing-buy {
+    font-family: sans-serif;
+    font-weight: 700;
+    font-size: 60px;
+    text-transform: uppercase;
+    margin: 20px;
+}
+.pricing-uslugi {
+    list-style: none;
+    text-align: center;
+    padding: 0;
+    font-size: 20px;
+    line-height: 28px;
+    letter-spacing: -0.03em;
+    color: #161616;
+}
+.pricing-btn {
+    width: 205px;
+    height: 50px;
+    font-size: 22px;
+    line-height: 27px;
+    text-transform: uppercase;
+    color: #fff;
+    background-color: #130E27;
+    border-radius: 5px;
+    margin: 40px 68px 36px;
+}
+
+.pricing-btn:hover {
+  transition: 1s;
+  box-shadow: 1px 1px 25px 10px rgba(186, 22, 10, 0.721);
+  background-image: radial-gradient(#540f0f 20%, #C62314 80%);
+}
+
+.all-footer {
+    height: 190px;
+}
